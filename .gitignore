@@ -17,6 +17,7 @@
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
+[Pp]roperties/
 x64/
 x86/
 bld/
@@ -80,6 +81,7 @@ StyleCopReport.xml
 *.log
 *.vspscc
 *.vssscc
+*.csproj
 .builds
 *.pidb
 *.svclog

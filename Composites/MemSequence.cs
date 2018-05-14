@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace SimpleBehaviourTrees
 {
     // Ticks children until first failure/error
-    // Memorises the last running node and starts ticking from it
+    // Memorizes the last running node and starts ticking from it
     class MemSequence : CompositeNode
     {
         public override TickResult Tick(AgentMemory am)

@@ -44,9 +44,7 @@ namespace SimpleBehaviourTrees
 
             if (child.Activates)
             {
-                child.Activate(agentMemory);
                 TickResult result = child.Tick(agentMemory);
-                child.Deactivate(agentMemory);
                 return result;
             }
             else

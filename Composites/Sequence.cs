@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace SimpleBehaviourTrees
 {
     // Ticks children until first failure
-    // Returns success, if all children succeeded
+    // Returns success if all children succeeded
     class Sequence : CompositeNode
     {
         public override TickResult Tick(AgentMemory am)
